@@ -10,8 +10,15 @@
   <body>
     <article class="widget">
       <div class="widget__wrapper">
-        <div class="widget__mock">
-          Here might be your weather!
+        <div class="widget__head">
+          <p class="widget__temperature">-°</p>
+          <div class="widget__main">
+            <p class="widget__status">-</p>
+            <p class="widget__location"><img src="./images/geotag.png" alt="geo">-</p>
+          </div>
+        </div>
+        <div class="widget__icon">
+            <img class="widget__img" src="https://openweathermap.org/img/wn/{{weather.[0].icon}}@2x.png" alt="{{weather.[0].main}}">
         </div>
       </div>
       <div class="widget__time">
@@ -19,6 +26,5 @@
         <p class="widget__date">15 Feb 2023</p>
       </div>
     </article>
-    <img src="./images/geotag.png" alt="geo" >
   </body>
 </html>
