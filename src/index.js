@@ -1,10 +1,6 @@
-import renderWidgetMarkup from './js/old/renderWidgetMarkup';
-// import renderDateMarkup from './js/renderDateMarkup';
 import fetchWeather from './js/fetchWeather';
 import createWidgetMarkup from './js/createWidgetMarkup';
 import getRefs from './js/getRefs';
-
-// import dayjs from 'dayjs';
 
 
 
