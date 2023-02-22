@@ -1,6 +1,6 @@
 export default function getRefs() {
     return {
-        widget: document.querySelector('.widget__wrapper'),
+        widget: document.querySelector('.widget'),
         date: document.querySelector('.widget__time'),
       };
   }

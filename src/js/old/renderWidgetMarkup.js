@@ -1,5 +1,5 @@
-import createWidgetMarkup from './createWidgetMarkup';
-import getRefs from './getRefs';
+import createWidgetMarkup from '../createWidgetMarkup';
+import getRefs from '../getRefs';
 
 const refs = getRefs();
 
